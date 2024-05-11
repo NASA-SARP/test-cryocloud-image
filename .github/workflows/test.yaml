@@ -35,7 +35,7 @@ jobs:
       with: # make sure username & password/token matches your registry
         NO_PUSH: "true"
         DOCKER_REGISTRY: "quay.io"
-        IMAGE_NAME: "cryointhecloud/cryo-hub-image"
+        IMAGE_NAME: "rwegener2/test-cryocloud-image"
         # Put repo contents in /srv/repo, so they aren't mangled when we put user home in /home/jovyan
         REPO_DIR: /srv/repo
 
