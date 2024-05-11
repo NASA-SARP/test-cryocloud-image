@@ -62,6 +62,8 @@ dependencies:
   - sympy~=1.12
   - xarray>=2023.05.0
 
+  # Additional analysis packages
+  - xmovie
   - spectral
 
   # Visualization packages
