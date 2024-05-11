@@ -8,6 +8,8 @@ on:
       - 'apt.txt'
       - 'conda-linux-64.lock'
       - 'environment.yml'
+      - 'install.R'
+      - 'Project.toml'
       - 'start'
       - 'postBuild'
       # Trigger rebuilds if the build process changes

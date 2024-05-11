@@ -64,6 +64,7 @@ dependencies:
 
   # Additional analysis packages
   - xmovie
+  - spectral
 
   # Visualization packages
   - bokeh~=3.2.2
