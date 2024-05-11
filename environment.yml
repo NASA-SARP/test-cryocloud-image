@@ -63,7 +63,7 @@ dependencies:
   - xarray>=2023.05.0
 
   # Additional analysis packages
-
+  - xmovie
 
   # Visualization packages
   - bokeh~=3.2.2
