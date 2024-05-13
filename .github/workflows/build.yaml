@@ -9,6 +9,7 @@ on:
       - 'conda-linux-64.lock'
       - 'environment.yml'
       - 'install.R'
+      - 'runtime.txt'
       - 'Project.toml'
       - 'start'
       - 'postBuild'

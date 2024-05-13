@@ -6,6 +6,8 @@ on:
       - 'apt.txt'
       - 'conda-linux-64.lock'
       - 'environment.yml'
+      - 'install.R'
+      - 'runtime.txt'
       - 'postBuild'
       - 'start'
       # Trigger rebuilds if the test process changes
