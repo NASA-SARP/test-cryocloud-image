@@ -15,5 +15,5 @@ cd home/jovyan/SpectralUnmixing-0.2.3/ && julia -e 'using Pkg; Pkg.activate(".")
 rm /home/jovyan/v0.2.3.zip
 
 # Test creating a Python env
-conda create -n testenv python=3.9 ipykernel
+conda create -n testenv python=3.9 ipykernel numpy
 python -m ipykernel install --user --name testenv --display-name "IPython - testenv"
