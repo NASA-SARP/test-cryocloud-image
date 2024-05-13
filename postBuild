@@ -13,3 +13,8 @@ wget https://github.com/emit-sds/SpectralUnmixing/archive/refs/tags/v0.2.3.zip -
 unzip /home/jovyan/v0.2.3.zip -d /home/jovyan/
 cd home/jovyan/SpectralUnmixing-0.2.3/ && julia -e 'using Pkg; Pkg.activate("."); Pkg.precompile()'
 rm /home/jovyan/v0.2.3.zip
+
+# Test creating a Python env
+conda env create --name testenv python=3.9
+conda install -n testenv ipykernel
+python -m ipykernel install --user --name testenv --display-name "IPython - testenv"
